@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anoop K. Shivadas - Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <!-- Navigation bar with links to each section -->
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Theme toggle button (sun/moon icon) -->
+    <button id="theme-toggle" aria-label="Toggle Dark/Light Mode"><i class="fas fa-sun"></i></button>
+    <!-- Hamburger menu icon for mobile -->
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="container">
+        <div class="intro">
+          <h1>Anoop K. Shivadas</h1>
+          <p><em>Web Developer & Designer</em></p>
+          <p>Welcome! I am a passionate web developer specializing in building interactive and responsive websites. 
+            I enjoy turning ideas into reality using code, and I love learning new technologies.</p>
+        </div>
+        <div class="profile">
+          <img src="face.jpg" alt="Profile image placeholder" class="profile-pic">
+          <div class="replace-text"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I am <strong>Anoop K. Shivadas</strong>, a dedicated software developer with experience in building modern web applications. 
+        I have a strong background in both front-end and back-end technologies, and I enjoy crafting user-friendly designs. 
+        My interests include learning about new frameworks, contributing to open-source, and constantly improving my coding skills.</p>
+        <p>I thrive in collaborative environments and am always eager to tackle challenging problems. 
+        With a solid foundation in computer science, I focus on writing clean, maintainable code and following best practices. 
+        In my free time, I explore design, photography, and other creative hobbies to broaden my perspective.</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skill">
+            <i class="fab fa-html5"></i>
+            <p>HTML5</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS3</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-js-square"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-java"></i>
+            <p>Java</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-node"></i>
+            <p>Node.js</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-python"></i>
+            <p>Python</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <h3>Restaurant Website</h3>
+            <p>A responsive, user-friendly restaurant landing page showcasing menu items, reservation/contact options, and brand identity. 
+            Designed to provide visitors with essential information (menu, hours, location) and an engaging browsing experience.</p>
+            <a href="https://anoopshivadas.github.io/Restaurant_page/" target="_blank">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Flutter Quiz App</h3>
+            <p> A cross-platform mobile quiz application offering multiple-choice quizzes on various topics, packaged as an APK for Android.</p>
+            <a href="https://bit.ly/3Hyq5od" target="_blank">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Web-Based Calculator</h3>
+            <p>A web calculator supporting basic arithmetic operations, edge-case handling, and a clean UI. 
+                Full frontend implementation, from UI layout to JavaScript logic.</p>
+            <a href="https://anoopshivadas.github.io/Calculator/" target="_blank">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Weather App – Real-Time Weather Forecasting</h3>
+            <p>The Weather App is a responsive web application that allows users to check the real-time weather of any city around the world.
+              Displays weather condition with relevant icons and styling.
+            </p>
+            <a href="https://anoopshivadas.github.io/Weather/" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Anoop K. Shivadas</p>
+      <div class="social-icons">
+        <a href="https://github.com/AnoopShivadas" target="_blank" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="http://www.linkedin.com/in/anoop-k-shivadas-6490ba314" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
