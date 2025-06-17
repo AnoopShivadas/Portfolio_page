@@ -17,4 +17,4 @@
       navLinks.classList.toggle('active');
     });
 
-    // Optionally, highlight active nav link on scroll (not implemented here)
+  
